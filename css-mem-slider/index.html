@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CssMemSlider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>CSS-Mem-Slider</h1>
+    </header>
+
+    <main class="container">
+      <input type="radio" name="slider" id="img_1" checked />
+      <input type="radio" name="slider" id="img_2" />
+      <input type="radio" name="slider" id="img_3" />
+      <input type="radio" name="slider" id="img_4" />
+
+      <div class="slider-container">
+        <div class="slides">
+          <div class="slides-container">
+            <img src="assets/images/img_1.jpg" alt="picture" />
+            <img src="assets/images/img_2.jpg" alt="picture" />
+            <img src="assets/images/img_3.jpg" alt="picture" />
+            <img src="assets/images/img_4.jpg" alt="picture" />
+          </div>
+        </div>
+        <div class="caption">
+          <div class="caption-container">
+            <span>То, что вы увидите, называется мемы...</span>
+            <span>Ну давай, расскажи мне про мемы...</span>
+            <span>Нельзя просто так взять и добавить мем в пост...</span>
+            <span>Рынок ценных бумаг...</span>
+          </div>
+          <div class="controls-container">
+            <div class="control-btns">
+              <label for="img_1" class="btn">
+                <div class="btn-inner" id="btn_1"></div>
+              </label>
+              <label for="img_2" class="btn">
+                <div class="btn-inner" id="btn_2"></div>
+              </label>
+              <label for="img_3" class="btn">
+                <div class="btn-inner" id="btn_3"></div>
+              </label>
+              <label for="img_4" class="btn">
+                <div class="btn-inner" id="btn_4"></div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="github">
+        <a
+          href="https://github.com/alexbrestby/alexbrestby.github.io/tree/css-mem-slider"
+          target="_blank"
+          >repository</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
